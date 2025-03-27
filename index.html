@@ -3,25 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For My 1st Love</title>
+    <title>For Anuradha - My 1st Love</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>For Anuradha</h1>
-        <p class="intro">This is for you, my first love. Words can’t express everything, but I’ll try.</p>
-        
-        <div class="content">
-            <h2>Why You’re Special</h2>
-            <p>Your smile lights up my world. Your voice calms my chaos. You’re the reason I believe in love.</p>
-            
-            <h2>My Promise</h2>
-            <p>No matter what, I’ll always be there. Through every storm, every laugh, every tear – it’s you and me.</p>
-        </div>
+        <p class="tagline">A Journey Crafted From My Soul</p>
+    </header>
 
-        <footer>
-            <p>Made with ❤️ by Rathop90</p>
-        </footer>
-    </div>
+    <section class="intro">
+        <h2>The Dawn of Us</h2>
+        <p>You entered my life like a melody that had been missing from my song. This page is my heart unfolded, every word a beat for you.</p>
+        <blockquote>"Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope." – Maya Angelou</blockquote>
+    </section>
+
+    <section class="memories">
+        <h2>Eternal Moments</h2>
+        <div class="memory-card">
+            <i class="fas fa-smile icon"></i>
+            <h3>The First Glance</h3>
+            <p>Your eyes met mine, and time paused – a moment I replay endlessly.</p>
+        </div>
+        <div class="memory-card">
+            <i class="fas fa-music icon"></i>
+            <h3>The Sound of You</h3>
+            <p>Your voice is my sanctuary, a rhythm that soothes my every storm.</p>
+        </div>
+        <div class="memory-card">
+            <i class="fas fa-heartbeat icon"></i>
+            <h3>Our Silent Symphony</h3>
+            <p>In our quiet, I found a language only we understand.</p>
+        </div>
+    </section>
+
+    <section class="letters">
+        <h2>Letters to Your Soul</h2>
+        <div class="letter">
+            <p>Dear Anuradha, every sunrise reminds me of the warmth you bring. I’m not perfect, but for you, I’ll try to be.</p>
+        </div>
+        <div class="letter">
+            <p>Sometimes I wonder if the stars aligned just to let me find you. You’re my universe.</p>
+        </div>
+    </section>
+
+    <section class="quotes">
+        <h2>Timeless Words</h2>
+        <blockquote>"You are the finest, loveliest, tenderest, and most beautiful person I have ever known." – F. Scott Fitzgerald</blockquote>
+        <blockquote>"I am who I am because of you. You are every reason, every hope, and every dream I’ve ever had." – Nicholas Sparks</blockquote>
+        <blockquote>"If I know what love is, it is because of you." – Hermann Hesse</blockquote>
+    </section>
+
+    <section class="promise">
+        <h2>My Eternal Oath</h2>
+        <p>Anuradha, I vow to be your shadow in the dark, your light in the storm, and your smile when the world fades. Forever begins with you.</p>
+        <div class="signature"><i class="fas fa-pen-fancy"></i> – Rathop90</div>
+    </section>
+
+    <footer>
+        <p>Crafted with sleepless nights and endless heartbeats, just for you, Anuradha.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.querySelectorAll('.memory-card, .letter, blockquote').forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 50) {
+                    el.classList.add('fade-in');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
