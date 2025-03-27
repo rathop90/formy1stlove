@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuradha, My Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Section 1: Intro -->
+        <section class="section intro">
+            <div class="card">
+                <h1>Hey Anuradha!</h1>
+                <p class="fade-in">Yeh safar tere liye hai, scroll kar aur dekho...</p>
+                <div class="heart-3d">
+                    <div class="heart-inner"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Why You -->
+        <section class="section why-you">
+            <div class="card">
+                <h2>Kyun Tum?</h2>
+                <p class="typewriter">Kyunki tum meri wajah ho jo har din khushi se bhar jata hai.</p>
+                <div class="particles"></div>
+            </div>
+        </section>
+
+        <!-- Section 3: Memories -->
+        <section class="section memories">
+            <div class="card">
+                <h2>Yaadein</h2>
+                <p class="fade-in">Har ek pal jo tumhare saath bitaya, woh meri zindagi ka khazana hai.</p>
+                <div class="floating-hearts">
+                    <div class="heart-small"></div>
+                    <div class="heart-small"></div>
+                    <div class="heart-small"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Promise -->
+        <section class="section promise">
+            <div class="card">
+                <h2>Mera Vaada</h2>
+                <p class="typewriter">Tumhe hamesha khush rakhunga, chahe kuch bhi ho jaye.</p>
+                <div class="ring"></div>
+            </div>
+        </section>
+
+        <!-- Section 5: Final Question -->
+        <section class="section final">
+            <div class="card">
+                <h2>Anuradha, Kya Tum...?</h2>
+                <p class="fade-in">Meri zindagi ka hissa banogi? Haan bol do, please!</p>
+                <button class="btn">I Love You</button>
+            </div>
+        </section>
+    </div>
+
+    <audio autoplay loop id="bg-music">
+        <source src="https://www.dropbox.com/scl/fi/xyz123/i-wanna-be-yours.mp3?rlkey=abc123&raw=1" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
